@@ -1,0 +1,83 @@
+
+## **Prompt untuk Implementasi Praktis**
+```
+Saya ingin membuat aplikasi CRUD sederhana untuk [pilih: data mahasiswa/data buku/data produk] menggunakan PHP dan MySQL. Bantu saya dengan:
+1. Struktur database yang optimal (CREATE TABLE)
+2. File koneksi database (koneksi.php)
+3. Form input untuk menambah data (Create)
+4. Script untuk menampilkan data dalam tabel (Read)
+5. Form dan script untuk edit data (Update)
+6. Script untuk hapus data dengan konfirmasi (Delete)
+7. Implementasi prepared statements untuk keamanan
+8. Validasi input yang memadai
+```
+
+## **Prompt untuk Studi Kasus Spesifik**
+```
+Buatkan aplikasi CRUD lengkap untuk sistem perpustakaan dengan spesifikasi:
+- Database: db_perpustakaan
+- Tabel buku dengan field: id_buku, judul, pengarang, tahun, isbn, kategori, stok, status
+- Fitur pencarian berdasarkan judul atau pengarang
+- Tampilan yang user-friendly dengan CSS
+- Validasi untuk mencegah duplikasi ISBN
+- Konfirmasi sebelum menghapus data
+- Gunakan arsitektur single tier dengan PHP dan MySQL
+```
+
+## **Prompt untuk Troubleshooting**
+```
+Saya mengalami masalah dalam implementasi CRUD PHP-MySQL:
+[Jelaskan masalah Anda, misalnya:]
+- Error koneksi database
+- Data tidak tersimpan ke database
+- Form edit tidak menampilkan data existing
+- Operasi delete menghapus semua data
+
+Tolong bantu saya:
+1. Identifikasi penyebab masalah
+2. Berikan solusi langkah demi langkah
+3. Sertakan kode yang sudah diperbaiki
+4. Jelaskan best practices untuk menghindari masalah serupa
+```
+
+## **Prompt untuk Pengembangan Lanjutan**
+```
+Saya sudah membuat aplikasi CRUD dasar. Sekarang saya ingin menambahkan fitur:
+1. Pencarian dan filter data
+2. Pagination untuk data yang banyak
+3. Export data ke CSV/Excel
+4. Validasi client-side dan server-side
+5. Pesan notifikasi yang lebih baik (success/error)
+6. Desain responsive dengan CSS/Bootstrap
+
+Berikan panduan implementasi untuk setiap fitur tersebut.
+```
+
+## **Prompt untuk Tugas Akademik**
+```
+Saya perlu menyelesaikan tugas membuat aplikasi CRUD dengan kriteria:
+- Entitas: [Data Barang/Pegawai/Produk]
+- Minimal 4-5 field data
+- Semua operasi CRUD harus berfungsi
+- Menggunakan prepared statements
+- Ada validasi input
+- Interface user-friendly
+- Dokumentasi lengkap
+
+Bantu saya:
+1. Desain struktur database yang optimal
+2. Implementasi lengkap semua file PHP
+3. Penerapan keamanan dan validasi
+4. Tips membuat dokumentasi yang baik
+5. Checklist untuk testing sebelum submit
+```
+
+## **Prompt untuk Keamanan Database**
+```
+Jelaskan tentang keamanan dalam operasi CRUD PHP-MySQL:
+1. Apa itu SQL Injection dan bagaimana mencegahnya?
+2. Mengapa prepared statements lebih aman?
+3. Perbedaan bind_param dengan query biasa
+4. Implementasi validasi input yang benar
+5. Best practices untuk keamanan database
+6. Contoh kode yang aman vs tidak aman
